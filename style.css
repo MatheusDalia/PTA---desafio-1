@@ -7,6 +7,40 @@
     align-items: center;
 }
 
+ul {
+    
+    width: 450px;
+    margin: 4px;
+    box-sizing: border-box;
+
+}
+
+ul li{
+    display: flex;
+    background:rgba(255,255,255,.1);
+    padding: 10px 20px;
+    color: #fff;
+    margin:0;
+    transition: .5s;
+}
+
+ul li:nth-child(1){
+    background:rgba(255,255,255,.6);
+    color: rgb(29, 120, 115);
+}
+
+ul li:nth-child(2){
+    background:rgba(255,255,255,.4);
+    color: rgb(29, 120, 115);
+    margin: 10px;
+}
+
+input{
+    width: 90px;
+    margin: 20px;
+    box-sizing: border-box;
+    background: rgb(29, 120, 115);
+}
 
 h1{
     margin: 30px;
